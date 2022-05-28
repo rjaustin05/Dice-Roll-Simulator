@@ -26,7 +26,8 @@ def roll_dice():
         for i in range(dice_quantity):
             result = random.randrange(1,sides)  
             print(f"Dice:{i+1} Result: {result}\n")
-        print("---------------")
+        print("--------------")
 
 roll_dice()
+
 
